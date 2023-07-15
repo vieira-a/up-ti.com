@@ -93,8 +93,6 @@ body {
 ::-webkit-scrollbar-thumb:hover { background-color: hls(0, 0%, 70%) ;}
 
 .material-symbols-rounded { 
-  font-size: var(--fs-4);
-  color: var(--slate-50);
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
   overflow: hidden;
 }
@@ -125,6 +123,11 @@ header .logo img {
   top: 100px;
   visibility: hidden;
   z-index: 2;
+}
+
+.navbar-toggle .material-symbols-rounded {
+  font-size: var(--fs-2);
+  color: var(--slate-50);
 }
 
 /* HERO */
