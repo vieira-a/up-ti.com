@@ -213,7 +213,8 @@ header .logo img {
 .stats,
 .services,
 .support,
-.contact {
+.contact,
+footer {
   background-color: var(--slate-900);
 }
 
@@ -275,4 +276,18 @@ form .btn-form {
   background-color: var(--blue-500);
   color: var(--slate-50);
   text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding-block: 4rem;
+  font-size: var(--fs-6);
+}
+
+footer img {
+  width: 10%;
 }
