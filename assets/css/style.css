@@ -212,12 +212,26 @@ header .logo img {
 
 .stats,
 .services,
+.support,
 .contact {
   background-color: var(--slate-900);
 }
 
 .section-header img {
   width: 6.4rem;
+}
+
+.section-content-support {
+  display: flex;
+  gap: 6rem;
+  text-align: center;
+  justify-content: center;
+  padding-block: 2.4rem;
+}
+
+.section-content-support span {
+  font-size: 4.8rem;
+  color: var(--indigo-500);
 }
 
 form {
