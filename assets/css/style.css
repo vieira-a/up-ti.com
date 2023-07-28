@@ -160,8 +160,6 @@ header .logo img {
 }
 
 .navbar {
-  position: absolute;
-  top: 100px;
   visibility: hidden;
   z-index: 2;
 }
