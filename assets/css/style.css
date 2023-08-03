@@ -142,7 +142,6 @@ h2, h3 {
 /* HEADER */
 
 header {
-  position: fixed;
   width: 100vw;
   padding-block: 1.2rem;
   z-index: 4;
@@ -159,7 +158,7 @@ header .logo img {
 }
 
 .navbar {
-  visibility: hidden;
+  display: none;
   z-index: 2;
 }
 
@@ -179,12 +178,12 @@ header .logo img {
 }
 
 .navbar.active {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
   width: 80vw;
-  visibility: visible;
+  height: 100vh;
   background-color: var(--slate-900);
 }
 
@@ -196,7 +195,7 @@ header .logo img {
 /* HERO */
 
 .hero {
-  padding-block-start: calc(var(--section-padding-block) + 72px); 
+  padding-block-start: calc(var(--section-padding-block) + 24px); 
 }
 
 .hero-content {
