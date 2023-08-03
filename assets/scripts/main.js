@@ -45,10 +45,11 @@ const sendWhatsAppMessage = () => {
   const name = nameInput.value;
   const phone = phoneInput.value;
   const message = messageInput.value;
+  const sourceMessage = 'Mensagem enviada através do site http://www.up-ti.com'
 
   const receiverPhone = '+5571981531862';
   const encodedMessage = encodeURIComponent(
-    `Olá, meu nome é ${name}. \nE-mail: ${emailInput.value} \nTelefone: ${phone}. \nMensagem: ${message}`
+    `Olá, meu nome é ${name}. \nE-mail: ${emailInput.value} \nTelefone: ${phone}. \nMensagem: ${message}. \n\n${sourceMessage}`
   );
   const wpLink = `https://api.whatsapp.com/send?phone=${receiverPhone}&text=${encodedMessage}`;
 
