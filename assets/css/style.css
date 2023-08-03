@@ -222,8 +222,10 @@ header .logo img {
 .btn-hero {
   background-color: var(--blue-500);
   color: var(--slate-50);
+  font-size: var(--fs-5);
   text-transform: uppercase;
   padding: 1.2rem 2.4rem;
+  border-radius: 4px;
 }
 
 .wave img {
@@ -282,7 +284,8 @@ form fieldset label {
   gap: 1.2rem;
 }
 
-form fieldset input {
+form fieldset input,
+form fieldset textarea {
   padding: 1.6rem 2rem;
   background-color: var(--slate-600);
   color: var(--slate-100);

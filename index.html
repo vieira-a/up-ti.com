@@ -66,7 +66,7 @@
         <li><a href="#about" class="navbar-link">Sobre nós</a></li>
         <li><a href="#services" class="navbar-link">Serviços</a></li>
         <li><a href="#stats" class="navbar-link">Indicadores</a></li>
-        <li><a href="#contact" class="navbar-link"></a></li>
+        <li><a href="#contact" class="navbar-link">Contato</a></li>
 
       </ul>
 
@@ -81,7 +81,7 @@
           <div class="hero-content">
             <h1 class="hero-title">Use a tecnologia de forma <span>inteligente</span></h1>
             <img src="./assets/images/hero-rocket.svg" alt="desenho de um foguete entre núvens azuis">
-            <button class="btn-hero">entre em contato</button>
+            <a class="btn-hero" href="#contact">entre em contato</a>
           </div>
         </div>
       </section>
@@ -296,7 +296,7 @@
             <p>Queremos e podemos te ajudar a crescer!</p>
           </div>
 
-          <form>
+          <form id="contact-form">
             <fieldset>
 
               <label for="name">Nome
@@ -311,12 +311,12 @@
                 <input type="text" id="phone" placeholder="Informe o seu telefone">
               </label>
 
-              <label for="mesage">Mensagem
-                <input type="textarea" id="mesage" placeholder="Conte-nos sobre o que precisa">
+              <label for="message">Mensagem
+                <textarea name="message" id="message" rows="5"></textarea>
               </label>
 
             </fieldset>
-            <button class="btn-form">enviar</button>
+            <button type="submit" class="btn-form">enviar</button>
           </form>
 
         </div>
