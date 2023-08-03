@@ -28,7 +28,7 @@
 
   /* spacing */
   
-  --section-padding: 1.2rem;
+  --section-padding-block: 4rem;
 
   /* border radius */
 
@@ -106,7 +106,7 @@ h2, h3 {
 }
 
 .container {
-  padding: 2.4rem var(--section-padding) ;
+  padding-inline: 2.4rem;
 }
 
 .section-header {
@@ -173,7 +173,7 @@ header .logo img {
 
 .hero {
   position: relative;
-  padding-block-start: calc(var(--section-padding) + 72px); 
+  padding-block-start: calc(var(--section-padding-block) + 72px); 
 }
 
 .hero-content {
@@ -209,15 +209,21 @@ header .logo img {
 }
 
 .stats,
+.about,
 .services,
 .support,
 .contact,
 footer {
+  padding-block: var(--section-padding-block);
   background-color: var(--slate-900);
 }
 
 .section-header img {
   width: 6.4rem;
+}
+
+section.about .section-content {
+  border: none;
 }
 
 .section-content-support {
